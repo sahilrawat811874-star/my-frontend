@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NextGen Innovators — 3D ULPIN & Vertical Property Mapping</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="bg-fx" aria-hidden="true"></div>
+
+<header class="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="brand">
+      <span class="brand-mark" aria-hidden="true">
+        <span></span><span></span><span></span>
+      </span>
+      <span class="brand-text">
+        <span class="brand-name">NextGen Innovators</span>
+        <span class="brand-sub">3D ULPIN &amp; Vertical Property Mapping</span>
+      </span>
+    </a>
+    <nav class="nav-links">
+      <a href="#features">Platform</a>
+      <a href="#about">About</a>
+      <a href="login.html" class="btn btn-ghost btn-small">Admin Login</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="hero-inner">
+      <div class="hero-copy">
+        <p class="tag">Smart India Hackathon 2026 &middot; Ministry of Rural Development</p>
+        <h1>R.D. College 3D Digital Twin</h1>
+        <p class="hero-desc">
+          A living 3D model of the R.D. College of Engineering campus that maps
+          buildings down to individual floors and units. Each unit carries its
+          own ULPIN, so a fourth-floor office gets the same clear, searchable
+          identity the Ministry already gives to a plot of land.
+        </p>
+        <div class="hero-actions">
+          <a href="#features" class="btn btn-primary">Explore Platform</a>
+          <a href="login.html" class="btn btn-outline">Admin Login</a>
+        </div>
+        <p class="hero-footnote">Case study: R.D. College of Engineering, Ghaziabad</p>
+      </div>
+
+      <div class="hero-visual" aria-hidden="true">
+        <div class="visual-stage">
+          <div class="grid-plane">
+            <div class="scan-line"></div>
+          </div>
+
+          <div class="block block-a">
+            <span class="floor-line" style="top:22%"></span>
+            <span class="floor-line" style="top:48%"></span>
+            <span class="floor-line" style="top:74%"></span>
+          </div>
+          <div class="block block-b">
+            <span class="floor-line" style="top:30%"></span>
+            <span class="floor-line" style="top:62%"></span>
+          </div>
+          <div class="block block-c">
+            <span class="floor-line" style="top:20%"></span>
+            <span class="floor-line" style="top:40%"></span>
+            <span class="floor-line" style="top:60%"></span>
+            <span class="floor-line" style="top:80%"></span>
+          </div>
+
+          <div class="ulpin-tag tag-1">
+            <span class="dot"></span>
+            <span class="tag-label">ULPIN RDCE-03-F2</span>
+          </div>
+          <div class="ulpin-tag tag-2">
+            <span class="dot"></span>
+            <span class="tag-label">ULPIN RDCE-01-F4</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="features" id="features">
+    <div class="section-head">
+      <h2>One digital twin, four working parts</h2>
+      <p>Everything a survey team, an admin office and a resident need
+        to locate, verify and manage a property in the same model.</p>
+    </div>
+
+    <div class="feature-grid">
+      <article class="feature-card">
+        <div class="feature-icon icon-map" aria-hidden="true"></div>
+        <h3>3D Campus Mapping</h3>
+        <p>Explore every block of R.D. College in an interactive 3D
+          model, built to scale from real survey data.</p>
+      </article>
+
+      <article class="feature-card">
+        <div class="feature-icon icon-layers" aria-hidden="true"></div>
+        <h3>Vertical Property Mapping</h3>
+        <p>See individual floors and units mapped separately, so a
+          top-floor unit is as identifiable as the plot beneath it.</p>
+      </article>
+
+      <article class="feature-card">
+        <div class="feature-icon icon-pin" aria-hidden="true"></div>
+        <h3>ULPIN Generation</h3>
+        <p>Generate a unique land parcel identifier for every unit,
+          extending the Ministry's ULPIN system into vertical space.</p>
+      </article>
+
+      <article class="feature-card">
+        <div class="feature-icon icon-doc" aria-hidden="true"></div>
+        <h3>Digital Property Records</h3>
+        <p>Keep ownership, area and floor details in one searchable
+          record tied directly to its ULPIN.</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <div class="about-inner">
+      <div>
+        <h2>Built for R.D. College, designed for scale</h2>
+        <p>The system is piloted on the R.D. College of Engineering campus
+          in Ghaziabad as a working case study for the Ministry of Rural
+          Development, ahead of wider rollout to properties that today
+          exist only as flat land records.</p>
+      </div>
+      <dl class="about-stats">
+        <div><dt>Organization</dt><dd>Ministry of Rural Development</dd></div>
+        <div><dt>Case study</dt><dd>R.D. College of Engineering, Ghaziabad</dd></div>
+        <div><dt>Team</dt><dd>NextGen Innovators</dd></div>
+      </dl>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="footer-inner">
+    <div class="footer-col">
+      <span class="brand-name small">NextGen Innovators</span>
+      <p>3D ULPIN Generation and Vertical Property Mapping System —
+        a Smart India Hackathon 2026 submission.</p>
+    </div>
+    <div class="footer-col">
+      <h4>Organization</h4>
+      <p>Ministry of Rural Development</p>
+      <p>Smart India Hackathon 2026</p>
+    </div>
+    <div class="footer-col">
+      <h4>Case study</h4>
+      <p>R.D. College of Engineering</p>
+      <p>Ghaziabad, Uttar Pradesh</p>
+    </div>
+    <div class="footer-col">
+      <h4>Access</h4>
+      <a href="login.html">Admin Login</a>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>&copy; 2026 NextGen Innovators. Built for Smart India Hackathon.</span>
+  </div>
+</footer>
+
+</body>
+</html>
